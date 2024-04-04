@@ -14,10 +14,16 @@
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabase2dataflow_connectionString": {
 			"value": ""
 		},
 		"AzureSqlDatabase2lokesh_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_connectionString": {
 			"value": ""
 		},
 		"AzureSqlDatabaseForSales_connectionString": {
