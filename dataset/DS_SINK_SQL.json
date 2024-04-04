@@ -14,10 +14,7 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": {
-				"value": "@split(dataset().sinktablename,'.')[0]",
-				"type": "Expression"
-			},
+			"schema": "Sakthivel",
 			"table": {
 				"value": "@split(dataset().sinktablename,'.')[1]",
 				"type": "Expression"
