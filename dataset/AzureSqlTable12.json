@@ -5,6 +5,20 @@
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"ID": {
+				"type": "string"
+			},
+			"PIPELINENAME": {
+				"type": "string"
+			},
+			"RUNSTATUS": {
+				"type": "string"
+			},
+			"TRIGGERTIME": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [

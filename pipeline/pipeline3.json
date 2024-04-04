@@ -38,6 +38,12 @@
 				"inputs": [
 					{
 						"referenceName": "SqlServerTable5",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureSqlTable12",
 						"type": "DatasetReference",
 						"parameters": {
 							"ID": {
@@ -49,7 +55,7 @@
 								"type": "Expression"
 							},
 							"RUNSTATUS": {
-								"value": "@pipeline().TriggerId",
+								"value": "@pipeline().RunId",
 								"type": "Expression"
 							},
 							"TRIGGERTIME": {
@@ -58,15 +64,23 @@
 							}
 						}
 					}
-				],
-				"outputs": [
-					{
-						"referenceName": "AzureSqlTable12",
-						"type": "DatasetReference"
-					}
 				]
 			}
 		],
+		"variables": {
+			"ID": {
+				"type": "Integer"
+			},
+			"NAME": {
+				"type": "String"
+			},
+			"STATUS": {
+				"type": "String"
+			},
+			"TIME": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
