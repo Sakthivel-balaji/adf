@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlTable11",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2dataflow",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Sakthivel",
+			"table": "dataflow"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

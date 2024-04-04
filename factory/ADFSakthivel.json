@@ -1,0 +1,9 @@
+{
+	"name": "ADFSakthivel",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3af152fc-9176-4a54-bd12-ad279127ff82",
+		"tenantId": "d83a6143-104d-46a7-987d-230c352019f1"
+	}
+}
